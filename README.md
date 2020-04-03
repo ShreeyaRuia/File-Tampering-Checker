@@ -3,11 +3,11 @@ This project is used to check whether a file was tampered or not by checking the
 
 ## Main Files:
 [Java code file](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-1. [Document tested on](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-2. [Document tested on](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-3. [Text file tested on](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-[File which stores hashed values](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-[Output file](output.txt "Click to redirect to java program")
+[Document tested on](Shortstories.docx "Click to redirect to file")
+[Document tested on](sha256.docx "Click to redirect to file")
+[Text file tested on](loremipsum.txt "Click to redirect to file")
+[File which stores hashed values](Data.txt "Click to redirect to file")
+[Output file](output.txt "Click to redirect to file")
 ## PROBLEM STATEMENT:
 
 Suppose you have to store on any cloud service or on laptop that are confidential. You have to be sure that the files that you store are not tampered by any third party. You do it by computing “hash” of that file using a Cryptographic hash algorithm.  You save these hashes on your local machine.

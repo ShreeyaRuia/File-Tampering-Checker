@@ -86,11 +86,11 @@ public class ADSAssignment {
     }
 
     public int storefiledata() throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("G:\\" + "DATA.txt");
+        PrintWriter writer = new PrintWriter("DATA.txt");
         writer.print("");
         writer.close();
         try {
-            FileWriter myWriter = new FileWriter("G:\\" + "DATA.txt");
+            FileWriter myWriter = new FileWriter("DATA.txt");
             store.forEach((key,value) -> {
                 try {
                     myWriter.write(key+" "+value+"\n");
@@ -110,7 +110,7 @@ public class ADSAssignment {
     public int loadfiledata() throws FileNotFoundException {
         try {
             String s, x = "0";
-            Scanner scanner = new Scanner(new File("G:\\" + "DATA.txt"));
+            Scanner scanner = new Scanner(new File("DATA.txt"));
             while (scanner.hasNextLine()) {
                 s = scanner.nextLine();
                 String splitvalues[] = s.split(" ");
@@ -159,7 +159,7 @@ public class ADSAssignment {
 
     public String calculatehash(String filename) throws NoSuchAlgorithmException, IOException {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
-        byte[] hashInBytes = checksum("G:\\" + filename, md);
+        byte[] hashInBytes = checksum(filename, md);
         System.out.println("NEW HASHED FILE VALUE:: "+bytesToHex(hashInBytes));
         return bytesToHex(hashInBytes);
     }

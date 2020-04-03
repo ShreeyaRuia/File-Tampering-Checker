@@ -2,12 +2,12 @@
 This project is used to check whether a file was tampered or not by checking the old hash value saved on your pc.
 
 ## Main Files:
-[Java code file](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
-[Document tested on](Shortstories.docx "Click to redirect to file")
-[Document tested on](sha256.docx "Click to redirect to file")
-[Text file tested on](loremipsum.txt "Click to redirect to file")
-[File which stores hashed values](Data.txt "Click to redirect to file")
-[Output file](output.txt "Click to redirect to file")
+1. [Java code file](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
+2. [Document tested on](Shortstories.docx "Click to redirect to file")
+3. [Document tested on](sha256.docx "Click to redirect to file")
+4. [Text file tested on](loremipsum.txt "Click to redirect to file")
+5. [File which stores hashed values](Data.txt "Click to redirect to file")
+6. [Output file](output.txt "Click to redirect to file")
 ## PROBLEM STATEMENT:
 
 Suppose you have to store on any cloud service or on laptop that are confidential. You have to be sure that the files that you store are not tampered by any third party. You do it by computing “hash” of that file using a Cryptographic hash algorithm.  You save these hashes on your local machine.

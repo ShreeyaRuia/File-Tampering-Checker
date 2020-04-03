@@ -159,7 +159,7 @@ public class ADSAssignment {
 
     public String calculatehash(String filename) throws NoSuchAlgorithmException, IOException {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
-        byte[] hashInBytes = checksum("G:\\" + filename, md);
+        byte[] hashInBytes = checksum(filename, md);
         System.out.println("NEW HASHED FILE VALUE:: "+bytesToHex(hashInBytes));
         return bytesToHex(hashInBytes);
     }

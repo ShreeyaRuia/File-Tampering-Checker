@@ -1,6 +1,8 @@
 # File-Tampering-Checker
 This project is used to check whether a file was tampered or not by checking the old hash value saved on your pc.
-Main code file(src/adsassignment/ADSAssignment.java "Click to redirect to c program")
+
+## Main Files:
+[Java code file](src/adsassignment/ADSAssignment.java "Click to redirect to java program")
 
 ## PROBLEM STATEMENT:
 
